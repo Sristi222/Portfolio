@@ -1,100 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport", content="width=device-width, initial-scale=1.0">
-    <title>
-        Sristi Shrestha Potfolio
-    </title>
-    <link rel="stylesheet" href="flappybird.css">
-    <script src="flappybird.js"></script>
-    <style>
-        body {
-            padding: 0;
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #f5f5f5;
-        }
-        /* Header section styling */
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 120px;
-            background-color: #fff;
-        }
-        
-        /* Navigation links container */
-        .nav-bar {
-            display: flex;
-            align-items: right;
-        }
-        /* Unordered list styling inside navigation */
-        ul {
-            display: flex;
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-        /* List items styling inside unordered list */
-        li {
-            margin-left: 20px;
-        }
-        /* Anchor tags styling */
-        a {
-            text-decoration: none;
-            color: black;
-            font-weight: bold;
-        }
-        .About-me {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 60px 120px;
-            background-color: #f6ecec;
-        }
-        .description{
-            text-align: left;
-        }
-        .tech-image {
-            width: 30%;
-            position: relative;
-            background-color: #f0e5d8;
-            align-items: center;
-        }
-        .tech-image img {
-            padding: 10%;
-            height: 100%;
-            width: 80%;
-            align-items: center;}
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <header>
-        <div class="logo">
-            <h1>Sristi's Portfolio</h1>
-        </div>
-        <div class="nav-bar">
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    
+        <h1>My Portfolio</h1>
     </header>
-    <div class="About-me">
-        <div class="description">
-                <p>Hello, I am</p>
-                <h1>Sristi Shrestha</h1>
-                <h3>A young UI/UX Designer with craze for mobile and web design</h3>
-            </div>
-            <div class="tech-image">
-                <img src="profile-pic (1).png" alt="Headphone Image" style="max-width: 100%;">
-                <div class="circle top-left"></div>
-                <div class="circle bottom-right"></div>
-            </div>
-    </div>
+
+    <section class="home">
+        <h2>Welcome</h2>
+        <p>Hello! I am Sristi Shrestah, Welcome to my portfolio.</p>
+    </section>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I am a [Your Profession] with experience in [Your Skills/Fields]. I have worked on various projects including [Project Examples].</p>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of project 1.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of project 2.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section class="resume">
+        <h2>Resume</h2>
+        <p>Here is a summary of my professional experience and education:</p>
+        <ul>
+            <li><strong>Job Title 1:</strong> Description of your role and responsibilities.</li>
+            <li><strong>Job Title 2:</strong> Description of your role and responsibilities.</li>
+            <!-- Add more jobs as needed -->
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:sristishrestha80@example.com">youremail@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/xtha-sristi/" target="_blank">yourprofile</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
 </body>
 </html>
